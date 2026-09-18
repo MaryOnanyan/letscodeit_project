@@ -67,7 +67,7 @@ class Helper:
             self.test_logger.error(f'Scroll to element failed for {by_locator}: {e}')
             raise
 
-    def wait_and_click(self, by_locator, timeout=8):
+    def wait_and_click(self, by_locator, timeout=10):
         try:
             element = WebDriverWait(self.driver, timeout).until(
                             EC.element_to_be_clickable(by_locator)
