@@ -1,0 +1,36 @@
+2026-09-18 15:04:14,145 [INFO] test_letskodit is started
+2026-09-18 15:04:14,146 [INFO] Opening page: https://www.letskodeit.com/practice
+2026-09-18 15:04:14,146 [ERROR] Go to page failed: 'NoneType' object has no attribute 'get'
+2026-09-18 15:04:14,362 [INFO] test_letskodit is finished
+2026-09-18 15:08:15,593 [INFO] test_letskodit is started
+2026-09-18 15:08:15,593 [INFO] Opening page: https://www.letskodeit.com/practice
+2026-09-18 15:08:21,849 [INFO] Clicked element: ('id', 'alertbtn')
+2026-09-18 15:08:21,858 [INFO] Accepted alert with text: Hello , share this practice page and share your knowledge
+2026-09-18 15:08:21,860 [INFO] Appended text to file live_coding_text.txt: Alert text - Hello , share this practice page and share your knowledge
+2026-09-18 15:08:21,883 [INFO] Got attribute style for element ('id', 'displayed-text'): 
+2026-09-18 15:08:21,884 [INFO] Appended text to file live_coding_text.txt: Hidden attribute - 
+2026-09-18 15:08:21,884 [INFO] Hover and click #top....
+2026-09-18 15:08:21,903 [INFO] Elemet scrolled to ('xpath', '//button[@id="mousehover"]') elememt
+2026-09-18 15:08:21,986 [INFO] Clicked element: ('xpath', '//button[@id="mousehover"]')
+2026-09-18 15:08:22,061 [INFO] Clicked element: ('xpath', '//a[@href="#top"]')
+2026-09-18 15:08:22,062 [INFO] Mouse hover check passed
+2026-09-18 15:08:22,062 [INFO] Reading the footer text....
+2026-09-18 15:08:22,073 [INFO] Elemet scrolled to ('xpath', "//p[contains(@class, 'jqCopyRight')]") elememt
+2026-09-18 15:08:22,097 [INFO] Got text for element ('xpath', "//p[contains(@class, 'jqCopyRight')]"): © 2026 letskodeit
+2026-09-18 15:08:22,097 [INFO] Footer text is © 2026 letskodeit
+2026-09-18 15:08:22,098 [INFO] Appended text to file live_coding_text.txt: Footer text - © 2026 letskodeit
+2026-09-18 15:08:23,289 [INFO] Clicked element: ('xpath', '//a[@href="/login"]')
+2026-09-18 15:08:23,289 [INFO] Clicked sign in button
+2026-09-18 15:08:23,289 [INFO] Trying to login in by example@gmail.com user...
+2026-09-18 15:08:23,375 [INFO] Entered text into element: ('xpath', "//input[@name='email']")
+2026-09-18 15:08:23,433 [INFO] Entered text into element: ('xpath', "//input[@name='password']")
+2026-09-18 15:08:23,506 [INFO] Clicked element: ('xpath', "//button[@id='login']")
+2026-09-18 15:08:23,506 [INFO] Login btn clicked
+2026-09-18 15:08:24,056 [INFO] Got text for element ('xpath', "//span[@id='incorrectdetails']"): Incorrect login details
+2026-09-18 15:08:24,056 [INFO] The text of the error received 'Incorrect login details'
+2026-09-18 15:08:24,057 [INFO] Appended text to file live_coding_text.txt: Sign in validation message - Incorrect login details
+2026-09-18 15:08:24,057 [INFO] Opening page in a new window: https://www.google.com/
+2026-09-18 15:08:24,117 [INFO] Switched to window: 1
+2026-09-18 15:08:24,117 [INFO] Opened Google page
+2026-09-18 15:08:24,119 [INFO] test_letskodit is finished
+2026-09-18 15:08:26,479 [INFO] Browser is closed

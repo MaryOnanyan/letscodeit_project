@@ -15,17 +15,17 @@ def browser():
         driver = webdriver.Chrome(options=options)
 
         # Open a visible browser window and maximize it
-        # logging.info("Browser is opening ...")
+        logging.info("Browser is opening ...")
         # driver = webdriver.Chrome()
         # driver.maximize_window()
-        # yield driver
+        yield driver
         # logging.info("Browser is closed")
     except Exception as e:
         print(f'Failed to set up driver: {e}')
     finally:
         if driver:
             driver.quit()
-
+            logging.info("Browser is closed")
 @pytest.fixture
 def test_logger(request):
 
